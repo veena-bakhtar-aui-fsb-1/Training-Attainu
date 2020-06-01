@@ -1,0 +1,38 @@
+Find the square of a given number
+1. Take the given number
+2. Multiple the given number by itself and store the result.
+3. Display the result.
+
+Look at the time of the day and tell whether it's time for breakfast, lunch or
+dinner
+1. Get the time of your system in 24hr format
+2. If the time is between 8 to 11 then display "Time for Breakfast"
+3. If the time is between 12 to 15 then display "Time for Lunch"
+4. If the time is between 20 to 22 then display "Time for Dinner"
+5. Else display "Nothing"
+
+Given a number, find whether the number is odd or even
+1. Take the given number
+2. Divide the given number by 2
+3. If the number is divisible by 2 then display "Even Number"
+4. Else display "Odd Number"
+
+Find out whether a given number or a string is palindrome(something that looks
+the same reading straight or in reverse)
+1. Take the given number / string
+2. Reverse that number/string
+3. Compare the given number/string with the reversed number/string
+4. If both the values same the display "Palindrome"
+5. Else display "Not Palindrome"
+
+Find the 10th number of a fibonacci series(research about this)
+1. Take two initial numbers as a and b, both with values a=0 and b=0
+2. Keep a count, initially as count= 0
+3. c = a + b (consider a new number c)
+4. a = b
+5. b = c
+6. count = count + 1 (increase the count by 1)
+7. Repeat steps 3 to 6 till the count is equal to 8 
+(here count is checked with 8 because we initially had 2 starting numbers of the series)
+8. Display the number in c (that is the 10th number of the series)
+

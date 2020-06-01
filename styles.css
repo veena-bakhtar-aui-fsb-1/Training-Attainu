@@ -4,6 +4,24 @@ p{
     color: green;
 }
 
-button{
+.nav-link-items {
+    display: inline-block;
+    font-size : 30px;
+    background-color: green;
+    color: red;
+    border: 3px solid blue;
+}
+
+.link-element {
+    color: blue;
+}
+
+#learn-more-button {
+    color: blue;
+    font-size: 30px;
+}
+
+.learn-more-class {
+    color: green;
     background-color: orange;
 }

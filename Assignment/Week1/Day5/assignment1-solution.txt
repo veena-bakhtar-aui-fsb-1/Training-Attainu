@@ -1,0 +1,27 @@
+1. mkdir demo
+2. ls
+3. cd demo
+4. ls
+5. touch assignment.txt
+6. ls
+7. rm assignment.txt
+8. ls
+9. cd ..
+10. rmdir demo
+11. mkdir Bootcamp
+12. cd Bootcamp
+13. touch project.txt
+14. git init
+15. git status
+16. git add project.txt
+17. git status
+18. make changes to the file from editor
+19. git add project.txt
+20. git remote addorigin https://github.com/veena-bakhtar-aui-fsb-1/Training-Attainu.git
+21. git commit -m "First commit"
+22. git push origin master
+23. git clone https://github.com/vatsal-thakor-aui-fsb-1/attainu.git
+24. update the file by adding an additional text to the file
+25. git add .
+26. git commit -m "update from veena"
+27. git push origin master

@@ -4,6 +4,10 @@ p{
     color: green;
 }
 
+button{
+    color: crimson;
+}
+
 .nav-link-items {
     display: inline-block;
     font-size : 30px;

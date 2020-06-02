@@ -1,0 +1,41 @@
+.main-div {
+    margin: 20px;
+}
+.page-header-items {
+    display: inline-block;
+    margin : 0px 50px 0px 0px;  
+}
+
+.nav-link-items {
+    display: inline-block;
+    margin: 20px 20px 20px 0px;
+}
+
+.featured-post-div {
+    background-color: #343a40; 
+    color:white; 
+    padding: 30px;
+}
+
+.left-highlighted-post-div {
+    display: inline-block;
+    padding: 20px;
+    width: 50%;
+}
+
+.right-highlighted-post-div {
+    display: inline-block;
+    padding: 20px;
+}
+
+.another-post-div {
+    width: 70%
+}
+
+.new-feature-div {
+    width: 70%;
+}
+
+.footer-div{
+    text-align: center;
+}

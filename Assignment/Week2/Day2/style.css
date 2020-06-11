@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: #212529;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding: 10px 20px;
+}
+
+.navbar-right h3 {
+    font-weight: normal;
+}
+
+.navbar-link {
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    border-bottom: 1px solid black;
+}
+
+.navbar-button {
+    padding: 10px;
+    color: #007bff;
+    border: 1px solid #007bff;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 0px 10px;
+}
+
+.navbar-button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.main-content {
+    margin: 0% 20%;
+    padding: 4.5rem 1rem 2rem 1rem;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 60px;
+    font-weight: normal;
+    margin-bottom: 10px;;
+}
+
+.main-content p {
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.pricing-options {
+    display: flex;
+    margin: 0px 10% 5% 10%;
+}
+
+.pricing-option {
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 35%;
+    text-align: center;
+}
+
+.pricing-option h3 {
+    padding: 15px 0px;
+    background-color: lightgrey;
+    border-bottom: grey;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.pricing-option-price {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 30px 0px;
+}
+#price {
+    font-size: 40px;
+    color: black;
+}
+
+.pricing-option-price p {
+    font-size: 30px;
+    color: gray;
+}
+
+.pricing-option p {
+    line-height: 1.5rem;
+}
+
+.pricing-option button {
+    width: 80%;
+    margin: 20px 0px; 
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.pricing-option-button1 {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+}
+
+.pricing-option-button2 {
+    background-color: #0069d9;
+    border: none;
+    color: white;
+}
+
+.pricing-option-button1:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.pricing-option-button2:hover {
+    background-color: #007bff;
+}
+
+hr{
+    margin: 0 10%;
+}
+
+.footer{
+    display: flex;
+    margin: 5% 10%;
+    justify-content: space-between;
+    padding-right: 15%;
+}
+
+.footer-content p{
+    line-height: 1.5rem;
+    color: gray;
+}
+
+.footer-content h4{
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#year{
+    color: gray;
+    font-size: 12px;
+}

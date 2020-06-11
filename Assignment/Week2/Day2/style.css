@@ -6,14 +6,14 @@
 }
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #dee2e6;
     padding: 10px 20px;
 }
 
-.navbar-right h3 {
+.navbar h3 {
     font-weight: normal;
+    margin-right: auto;
 }
 
 .navbar-link {
@@ -41,7 +41,9 @@
 }
 
 .main-content {
-    margin: 0% 20%;
+    max-width: 700px;
+    margin-left: auto ;
+    margin-right: auto;
     padding: 4.5rem 1rem 2rem 1rem;
     text-align: center;
 }
@@ -57,25 +59,34 @@
     line-height: 2rem;
 }
 
+.page-content {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 .pricing-options {
     display: flex;
-    margin: 0px 10% 5% 10%;
+    margin-bottom: 8%;
 }
 
 .pricing-option {
-    border: 1px solid grey;
+    border: 1px solid #00000020;
     border-radius: 5px;
-    margin-right: 20px;
-    width: 35%;
+    margin: 0px 10px 10px 10px;
     text-align: center;
+    flex-grow: 1;
+    min-width: 220px;
 }
 
 .pricing-option h3 {
     padding: 15px 0px;
-    background-color: lightgrey;
-    border-bottom: grey;
+    background-color: #0000000f;
     font-size: 25px;
     font-weight: normal;
+    border-bottom: 1px solid #00000020;
 }
 
 .pricing-option-price {
@@ -127,20 +138,38 @@
     background-color: #007bff;
 }
 
-hr{
-    margin: 0 10%;
+hr {
+    border: 1px solid #dee2e6;
 }
 
-.footer{
+.footer {
     display: flex;
-    margin: 5% 10%;
+    margin: 5% 0;
     justify-content: space-between;
     padding-right: 15%;
+    flex-wrap: wrap;
 }
 
-.footer-content p{
-    line-height: 1.5rem;
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-content a{
+    line-height: 1.5;
     color: gray;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.footer-content a:hover {
+    border-bottom: 1px solid gray;
 }
 
 .footer-content h4{
@@ -152,4 +181,33 @@ hr{
 #year{
     color: gray;
     font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+    }
+
+    .navbar h3 {
+        margin-right: 0;
+    }
+
+    .navbar ul {
+        margin: 1rem 0;
+    }
+
+    .pricing-options {
+        flex-flow: row wrap;
+    }
+
+    .footer-image {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .footer-links {
+        flex-basis: 50%;
+        max-width: 50%;
+        margin: 10px 0px;
+    }
 }

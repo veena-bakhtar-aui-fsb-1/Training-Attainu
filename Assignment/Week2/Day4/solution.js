@@ -63,3 +63,61 @@ function concat (array1, array2) {
   
   concat([1, 3, 5], [2, 6, 8]);
 
+// 7. Create a function that takes an array of two numbers and checks if the square root of the first number  // is equal to the cube root of the second number.
+
+function checkSquareAndCube (array) {
+    if (Math.sqrt(array[0]) == Math.cbrt(array[1])) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+  
+  checkSquareAndCube([9, 27]);
+
+// 8. Multiply Every Array Item by Two
+
+function getMultipliedArr (array) {
+    for (var i = 0; i < array.length; i++) {
+      array[i] = array[i] * 2;
+    }
+    return array;
+  }
+  
+  getMultipliedArr ([2, 5, 3]);
+
+// 9. Write a JavaScript program to display the reading status (i.e. display book name, author name and
+// reading status) of the following books.
+
+function getReadingstatus (library) {
+    for (var i = 0; i < library.length; i++) {
+      if (library[i].readingStatus == true) {
+        console.log("Already read " + library[i].title + " by " + library[i].author);
+      } else {
+        console.log("You still need to read " + library[i].title + " by " + library[i].author);
+      }
+    }
+  }
+  
+  var library = [
+  {
+    author: 'Bill Gates',
+    title: 'The Road Ahead',
+    readingStatus: true
+  }, 
+  {
+    author: 'Walter Isaacson',
+    title: 'Steve Jobs',
+    readingStatus: true
+  },
+  {
+    author: 'Suzanne Collins',
+    title: 'Mockingjay: The Final Book of The Hunger Games', 
+    readingStatus: false
+  }
+  ];
+  
+  getReadingstatus (library);
+
+// 10. Write a JavaScript program to sort an array of JavaScript objects.
+

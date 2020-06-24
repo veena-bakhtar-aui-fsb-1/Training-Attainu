@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.full-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.website-name {
+    padding-left: 5rem;
+}
+
+.website-name a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.header-content-right {
+    padding-right: 1rem;
+}
+
+.header-content-right input {
+    padding: 5px 8px;
+    margin-right: 2rem;
+    border: 1px solid #6c757d;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.header-content-right button {
+    padding: 4px 8px;
+    background-color: transparent;
+    border: 1px solid #6c757d;
+    border-radius: 4px;
+    color: #6c757d;
+}
+
+.header-content-right button:hover {
+    background-color: #6c757d;
+    color: white;
+}
+
+.main-content {
+    background: linear-gradient(rgba(22, 22, 22, 0.62), rgba(22, 22, 22, 0.6)), url(./images/recipe.jpg) no-repeat left top;;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem 50% 3rem 3rem;
+    margin-bottom: 2rem;
+}
+
+.main-content h1 {
+    color: white;
+    font-size: 3rem;
+    font-style: italic;
+    line-height: 1.2;
+    font-weight: 600;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.main-content p {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 1rem 0; 
+    line-height: 1.5;
+}
+
+.recipe-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px 8px -15px;
+}
+
+.recipe-card-outer {
+    flex: 0 0 50%;
+    max-width: 47%;
+    padding: 0 15px;
+    
+}
+
+.recipe-card-inner {
+    display: flex;
+    margin-bottom: 24px;
+    border: 1px solid #6c757d;
+    border-radius: 4px;
+    height: 250px;
+}
+
+.recipe-card-inner img {
+    width: 40%;
+    height: 100%;
+}
+
+
+.recipe-card-content {
+    line-height: 2;
+    padding: 10px 20px 10px 30px;
+}
+
+.recipe-card-content h6 {
+    font-size: 1rem;
+    color: blue;
+}
+
+.recipe-card-content h1 {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.recipe-card-content a {
+    color: blue;
+    text-decoration: none;
+}
+
+.recipe-card-content a:hover {
+    border-bottom: 1px solid blue;
+}
+
+footer {
+    padding: 2.5rem 0;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    border-bottom: 1px solid blue;
+}

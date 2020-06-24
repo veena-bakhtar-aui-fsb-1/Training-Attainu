@@ -1,0 +1,42 @@
+Steps:-
+1. Create a folder say "node-demo"
+2. cd node-demo   (move inside the node-demo folder from terminal)
+3. npm init -y    (do this in the terminal)
+4. create a file inside node-demo folder say "index.js"
+5. Write the following code in the index.js file
+
+var http = require('http');
+http.createServer(function (req, res) {
+res.write('Hello World!');
+res.end();
+}).listen(8080);
+
+7. node index.js    (in the terminal)
+8. In the browser address bar type 'localhost:8080' 
+(Hello World! will be displayed)
+
+9. control+c to exit   (in the terminal)
+
+10. npm install express   (in the terminal)
+11. Create a file say "express.js"
+12. Write the following code in the express.js file
+
+var express = require('express');
+var app = express();
+app.get('/',function(req,res){
+    res.end("Hello World! from Express");
+})
+app.get('/profile',function(req,res){
+    res.end("This page will have profile details");
+})
+app.listen(8080)
+
+13. node express.js    (in the terminal)
+14. In the browser address bar type 'localhost:8080' 
+(Hello World! from Express will be displayed)
+
+15. In the browser address bar type 'localhost:8080/profile' 
+(This page will have profile details will be displayed)
+
+16. control+c to exit
+
